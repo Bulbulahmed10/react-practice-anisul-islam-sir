@@ -1,4 +1,6 @@
 import React from "react";
+
+
 import Card from "./components/Product-card";
 import Products from "./products.json";
 import Card2 from "./components/Card2";
@@ -9,6 +11,7 @@ import CounterApp from "./components/assingment-2-counter-app/counter-App";
 import FormHandling from "./components/form-handling/Form";
 import FormHandling2 from "./components/form-handling/form-handling2";
 import ChildComponent from "./components/Data-ParentToChild/ChildComponent";
+import Home from "./components/Todo-App/Home";
 
 function App() {
   // let items = [];
@@ -23,9 +26,25 @@ function App() {
   // ));
   /* //! passing data from child to parent component */
 
-  const passingDataPtoC = (childDataParameter) => {
-    console.log(childDataParameter)
-  }
+  // const passingDataPtoC = (childDataParameter) => {
+  //   console.log(childDataParameter)
+  // }
+
+
+  //! Todo-App component data
+
+  //!! Plan
+
+  //!!! App.js ==> Components ==> Home.js(todo = ["item1", "item2"]) ==> Todos ==> Todo
+
+  //! Components ===> NewTodo(client side)
+
+
+
+
+
+
+  
 
   return (
     <div>
@@ -44,10 +63,11 @@ function App() {
 
       {/* //! passing data from child to parent component */}
 
-      <ChildComponent parentData="I am parent data visit to child compunent.. please welcome me" childData={passingDataPtoC} 
-      
-      />
-       
+      {/* <ChildComponent parentData="I am parent data visit to child compunent.. please welcome me" childData={passingDataPtoC} /> */}
+
+     {/* //! Todo-App component data!!! */}
+
+      <Home />
     </div>
   );
 }
