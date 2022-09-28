@@ -21,6 +21,11 @@ function App() {
   //     imgSrc={item.productImg}
   //   />
   // ));
+  /* //! passing data from child to parent component */
+
+  const passingDataPtoC = (childDataParameter) => {
+    console.log(childDataParameter)
+  }
 
   return (
     <div>
@@ -36,9 +41,12 @@ function App() {
       {/* <FormHandling /> */}
       {/* <FormHandling2 /> */}
 
-      
+
       {/* //! passing data from child to parent component */}
-      <ChildComponent />
+
+      <ChildComponent parentData="I am parent data visit to child compunent.. please welcome me" childData={passingDataPtoC} 
+      
+      />
        
     </div>
   );
