@@ -1,0 +1,56 @@
+[
+  {
+    "productTitle": "arrow",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 60,
+    "productImg": "images/product img/f1.jpg"
+  },
+  {
+    "productTitle": "peter england",
+    "productDesc": "garnier pure active micellar cleansing water .125ml",
+    "productAmount": 50,
+    "productImg": "images/product img/f2.jpg"
+  },
+  {
+    "productTitle": "van heusen",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 40,
+    "productImg": "images/product img/f3.jpg"
+  },
+  {
+    "productTitle": "zodiac",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 50,
+    "productImg": "images/product img/f6.jpg"
+  },
+  {
+    "productTitle": "louis phillipe",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 50,
+    "productImg": "images/product img/f7.jpg"
+  },
+  {
+    "productTitle": "john players",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 50,
+    "productImg": "images/product img/f8.jpg"
+  },
+  {
+    "productTitle": "park avenue",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 50,
+    "productImg": "images/product img/n2.jpg"
+  },
+  {
+    "productTitle": "parx",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 50,
+    "productImg": "images/product img/n5.jpg"
+  },
+  {
+    "productTitle": "wills lifestyle",
+    "productDesc": "garnier pure active micellar cleansing.",
+    "productAmount": 50,
+    "productImg": "images/product img/n6.jpg"
+  }
+]

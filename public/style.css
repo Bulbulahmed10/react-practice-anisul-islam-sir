@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.headingStyle{
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+/* card component css */
+
+.card{
+  width: 250px;
+  background: #fff;
+  display: inline-block;
+  box-shadow: 0px 4px 16px rgba(0,0,0,.3);
+  border: none;
+  cursor: pointer;
+  margin: 30px 0 30px 30px;
+  
+  
+}
+
+.product-img{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  
+}
+
+.product-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.product-desc{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #38797D;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* span{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: purple;
+  margin: 10px 0;
+  letter-spacing: 2px;
+} */
+
+.cart-button{
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  text-transform: uppercase;
+  background-color: darkorchid;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.cart-button:hover{
+  background-color: rgb(93, 13, 133);
+}
+
+.icon{
+  font-size: 120px;
+}
+
+.click-btn{
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: chocolate;
+  color: #fff;
+  cursor: pointer;
+}
+
+.validInput{
+  background-color: green;
+}
+.InvalidInput{
+  background-color: red;
+}
+
