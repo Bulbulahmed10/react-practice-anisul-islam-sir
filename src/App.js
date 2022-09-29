@@ -1,19 +1,20 @@
 import React from "react";
 
 
-import Card from "./components/Product-card";
-import Products from "./products.json";
-import Card2 from "./components/Card2";
-import ReactBootstrap from "./components/reactBootstrap";
-import State from "./state"
-import HooksuseState from "./components/conditional-rendering/Main"
-import CounterApp from "./components/assingment-2-counter-app/counter-App";
-import FormHandling from "./components/form-handling/Form";
-import FormHandling2 from "./components/form-handling/form-handling2";
-import ChildComponent from "./components/Data-ParentToChild/ChildComponent";
-import Home from "./components/Todo-App/Home";
-import Toggle from "./components/Toggle/Toggle";
-import FAQS from "./components/FAQ/FAQS.jsx";
+// import Card from "./components/Product-card";
+// import Products from "./products.json";
+// import Card2 from "./components/Card2";
+// import ReactBootstrap from "./components/reactBootstrap";
+// import State from "./state"
+// import HooksuseState from "./components/conditional-rendering/Main"
+// import CounterApp from "./components/assingment-2-counter-app/counter-App";
+// import FormHandling from "./components/form-handling/Form";
+// import FormHandling2 from "./components/form-handling/form-handling2";
+// import ChildComponent from "./components/Data-ParentToChild/ChildComponent";
+// import Home from "./components/Todo-App/Home";
+// import Toggle from "./components/Toggle/Toggle";
+// import FAQS from "./components/FAQ/FAQS.jsx";
+import UseEffectExample from "./components/Hooks/useEffect/useEffectExample";
 
 function App() {
   // let items = [];
@@ -71,7 +72,12 @@ function App() {
 
       {/* <Toggle /> */}
 
-      <FAQS />
+      {/* <FAQS /> */}
+
+      {/*//! UseEffect */}
+
+    
+      <UseEffectExample />
     </div>
   );
 }
