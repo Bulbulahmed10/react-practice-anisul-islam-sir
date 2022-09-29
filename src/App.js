@@ -12,6 +12,8 @@ import FormHandling from "./components/form-handling/Form";
 import FormHandling2 from "./components/form-handling/form-handling2";
 import ChildComponent from "./components/Data-ParentToChild/ChildComponent";
 import Home from "./components/Todo-App/Home";
+import Toggle from "./components/Toggle/Toggle";
+import FAQS from "./components/FAQ/FAQS.jsx";
 
 function App() {
   // let items = [];
@@ -40,10 +42,6 @@ function App() {
   //! Components ===> NewTodo(client side)
 
 
-
-
-
-
   
 
   return (
@@ -67,7 +65,13 @@ function App() {
 
      {/* //! Todo-App component data!!! */}
 
-      <Home />
+      {/* <Home /> */}
+
+      {/* //! Toggle */}
+
+      {/* <Toggle /> */}
+
+      <FAQS />
     </div>
   );
 }
