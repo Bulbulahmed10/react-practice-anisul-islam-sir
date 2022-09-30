@@ -16,7 +16,10 @@ import React from "react";
 // import FAQS from "./components/FAQ/FAQS.jsx";
 // import UseEffectExample from "./components/Hooks/useEffect/useEffectExample";
 // import DataFetch from "./components/Hooks/UseEffect/DataFetch"
-import CustomHooksExaDataFetch from "./components/Hooks/CustomHooks/CustomHooksExaDataFetch";
+// import CustomHooksExaDataFetch from "./components/Hooks/CustomHooks/CustomHooksExaDataFetch";
+import Main from "./components/Country-App/Main";
+
+
 
 
 function App() {
@@ -84,7 +87,9 @@ function App() {
 
       {/* <DataFetch /> */}
 
-      <CustomHooksExaDataFetch />
+      {/* <CustomHooksExaDataFetch /> */}
+
+      <Main />
     </div>
   );
 }
