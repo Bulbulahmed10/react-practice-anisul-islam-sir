@@ -15,8 +15,8 @@ import React from "react";
 // import Toggle from "./components/Toggle/Toggle";
 // import FAQS from "./components/FAQ/FAQS.jsx";
 // import UseEffectExample from "./components/Hooks/useEffect/useEffectExample";
-import DataFetch from "./components/Hooks/useEffect/DataFetch";
-
+// import DataFetch from "./components/Hooks/UseEffect/DataFetch"
+import CustomHooksExaDataFetch from "./components/Hooks/CustomHooks/CustomHooksExaDataFetch";
 
 
 function App() {
@@ -82,7 +82,9 @@ function App() {
     
       {/* <UseEffectExample /> */}
 
-      <DataFetch />
+      {/* <DataFetch /> */}
+
+      <CustomHooksExaDataFetch />
     </div>
   );
 }
