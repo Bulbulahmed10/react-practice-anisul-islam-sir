@@ -14,7 +14,10 @@ import React from "react";
 // import Home from "./components/Todo-App/Home";
 // import Toggle from "./components/Toggle/Toggle";
 // import FAQS from "./components/FAQ/FAQS.jsx";
-import UseEffectExample from "./components/Hooks/useEffect/useEffectExample";
+// import UseEffectExample from "./components/Hooks/useEffect/useEffectExample";
+import DataFetch from "./components/Hooks/useEffect/DataFetch";
+
+
 
 function App() {
   // let items = [];
@@ -77,7 +80,9 @@ function App() {
       {/*//! UseEffect */}
 
     
-      <UseEffectExample />
+      {/* <UseEffectExample /> */}
+
+      <DataFetch />
     </div>
   );
 }
