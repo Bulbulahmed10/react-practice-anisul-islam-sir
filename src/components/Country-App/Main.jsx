@@ -35,23 +35,23 @@ const Main = () => {
 
   const handleRemoveCountry = (name) => {
     const filter = filteredCountries.filter((country) => country.name !== name);
-    return setFilteredCountries(filter)
+    return setFilteredCountries(filter);
   };
 
   const handleSearch = (searchValue) => {
-    let value = searchValue.toLowerCase()
+    let value = searchValue.toLowerCase();
     const newCountries = countries.filter((country) => {
-      const countryName = country.name.toLowerCase()
-      return countryName.startsWith(value)
-    })
+      const countryName = country.name.toLowerCase();
+      return countryName.startsWith(value);
+    });
 
-    setFilteredCountries(newCountries)
-  }
+    setFilteredCountries(newCountries);
+  };
   return (
     <>
       <h1> Country App</h1>
       <Search onSearch={handleSearch} />
-      {isLoading && <h2>Loading...</h2>}
+      {isLoading && <h2 style={{ textAlign: "center" }}>Loading...</h2>}
       {error && <h2> {error.message} </h2>}
       {countries && (
         <Countries
