@@ -19,8 +19,8 @@ import React from "react";
 // import CustomHooksExaDataFetch from "./components/Hooks/CustomHooks/CustomHooksExaDataFetch";
 // import Main from "./components/Country-App/Main";
 // import UserForm from "./components/RefExample/UserForm";
-import UseRefHook from "./components/Hooks/UseRef/useRef";
-
+// import UseRefHook from "./components/Hooks/UseRef/useRef";
+import UseReducer from "./components/Hooks/UseReducer/useReducer";
 
 
 function App() {
@@ -93,8 +93,8 @@ function App() {
       {/* <Main /> */}
       
       {/* <UserForm /> */}
-      <UseRefHook />
-      
+      {/* <UseRefHook /> */}
+      <UseReducer />
     </div>
   );
 }
