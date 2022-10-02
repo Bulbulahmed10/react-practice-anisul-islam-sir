@@ -21,7 +21,8 @@ import React from "react";
 // import UserForm from "./components/RefExample/UserForm";
 // import UseRefHook from "./components/Hooks/UseRef/useRef";
 // import UseReducer from "./components/Hooks/UseReducer/useReducer";
-import Component1 from "./components/Hooks/useContext/Component1";
+// import Component1 from "./components/Hooks/useContext/Component1";
+import Users from "./components/PropTypes/Users";
 
 
 function App() {
@@ -96,7 +97,8 @@ function App() {
       {/* <UserForm /> */}
       {/* <UseRefHook /> */}
       {/* <UseReducer /> */}
-      <Component1 />
+      {/* <Component1 /> */}
+      <Users />
     </div>
   );
 }
