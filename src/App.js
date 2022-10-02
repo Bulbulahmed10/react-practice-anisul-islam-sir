@@ -20,7 +20,8 @@ import React from "react";
 // import Main from "./components/Country-App/Main";
 // import UserForm from "./components/RefExample/UserForm";
 // import UseRefHook from "./components/Hooks/UseRef/useRef";
-import UseReducer from "./components/Hooks/UseReducer/useReducer";
+// import UseReducer from "./components/Hooks/UseReducer/useReducer";
+import Component1 from "./components/Hooks/useContext/Component1";
 
 
 function App() {
@@ -94,7 +95,8 @@ function App() {
       
       {/* <UserForm /> */}
       {/* <UseRefHook /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <Component1 />
     </div>
   );
 }
