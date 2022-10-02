@@ -1,0 +1,23 @@
+nav{
+  height: 10vh;
+  background-color: rgb(5, 5, 54);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLink{
+  color: white;
+  margin: 1rem;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.navLink:hover{
+  color: orange;
+}
+
+nav .active{
+
+  color: red;
+}

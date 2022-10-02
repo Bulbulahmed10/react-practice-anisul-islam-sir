@@ -1,5 +1,7 @@
 import React from "react";
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 
+import style from "./App.css"
 
 // import Card from "./components/Product-card";
 // import Products from "./products.json";
@@ -22,7 +24,15 @@ import React from "react";
 // import UseRefHook from "./components/Hooks/UseRef/useRef";
 // import UseReducer from "./components/Hooks/UseReducer/useReducer";
 // import Component1 from "./components/Hooks/useContext/Component1";
-import Users from "./components/PropTypes/Users";
+// import Users from "./components/PropTypes/Users";
+
+//! page( practice routing)
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Error from "./pages/Error";
+import Navbar from "./components/Navbar/Navbar";
+
 
 
 function App() {
@@ -98,7 +108,21 @@ function App() {
       {/* <UseRefHook /> */}
       {/* <UseReducer /> */}
       {/* <Component1 /> */}
-      <Users />
+      {/* <Users /> */}
+
+      {/* //! React Routing */}
+
+      <BrowserRouter>
+        <Navbar />
+        <Routes >
+          <Route path="/" element={<Home />} />
+          <Route path="/blogs" element={<Blog /> } />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+
+      </BrowserRouter>
+
     </div>
   );
 }
