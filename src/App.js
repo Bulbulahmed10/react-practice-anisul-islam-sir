@@ -1,8 +1,14 @@
 import React from "react";
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import style from "./App.css"
+import style from "./App.css";
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Error from "./pages/Error";
 
+import Navbar from "./components/Navbar/Navbar";
 // import Card from "./components/Product-card";
 // import Products from "./products.json";
 // import Card2 from "./components/Card2";
@@ -27,13 +33,6 @@ import style from "./App.css"
 // import Users from "./components/PropTypes/Users";
 
 //! page( practice routing)
-import Home from "./pages/Home";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
-import Error from "./pages/Error";
-import Navbar from "./components/Navbar/Navbar";
-
-
 
 function App() {
   // let items = [];
@@ -52,7 +51,6 @@ function App() {
   //   console.log(childDataParameter)
   // }
 
-
   //! Todo-App component data
 
   //!! Plan
@@ -60,9 +58,6 @@ function App() {
   //!!! App.js ==> Components ==> Home.js(todo = ["item1", "item2"]) ==> Todos ==> Todo
 
   //! Components ===> NewTodo(client side)
-
-
-  
 
   return (
     <div>
@@ -78,12 +73,11 @@ function App() {
       {/* <FormHandling /> */}
       {/* <FormHandling2 /> */}
 
-
       {/* //! passing data from child to parent component */}
 
       {/* <ChildComponent parentData="I am parent data visit to child compunent.. please welcome me" childData={passingDataPtoC} /> */}
 
-     {/* //! Todo-App component data!!! */}
+      {/* //! Todo-App component data!!! */}
 
       {/* <Home /> */}
 
@@ -95,7 +89,6 @@ function App() {
 
       {/*//! UseEffect */}
 
-    
       {/* <UseEffectExample /> */}
 
       {/* <DataFetch /> */}
@@ -103,7 +96,7 @@ function App() {
       {/* <CustomHooksExaDataFetch /> */}
 
       {/* <Main /> */}
-      
+
       {/* <UserForm /> */}
       {/* <UseRefHook /> */}
       {/* <UseReducer /> */}
@@ -114,23 +107,16 @@ function App() {
 
       <BrowserRouter>
         <Navbar />
-        <Routes >
+        <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blogs" element={<Blog /> } />
-          <Route path="/contact" element={<Contact/>} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/:title" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>
-
       </BrowserRouter>
-
     </div>
   );
 }
 
 export default App;
-
-
-
-
-
-

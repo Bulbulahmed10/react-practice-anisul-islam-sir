@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
   
   box-sizing: border-box;
@@ -19,7 +19,7 @@ body{
 
 /* card component css */
 
-.card{
+/* .card{
   width: 250px;
   background: #fff;
   display: inline-block;
@@ -53,7 +53,7 @@ body{
   color: #38797D;
   font-weight: 400;
   margin-top: 10px;
-}
+} */ */
 
 /* span{
   display: block;
@@ -65,7 +65,7 @@ body{
   letter-spacing: 2px;
 } */
 
-.cart-button{
+/* .cart-button{
   width: 100%;
   padding: 15px 0;
   border: none;
@@ -101,4 +101,4 @@ body{
 .InvalidInput{
   background-color: red;
 }
-
+ */

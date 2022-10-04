@@ -1,23 +1,44 @@
 nav{
   height: 10vh;
-  background-color: rgb(5, 5, 54);
+  background-color: black;
+
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.navLink{
+.nav_link{
   color: white;
   margin: 1rem;
   text-decoration: none;
   transition: all .3s;
 }
 
-.navLink:hover{
-  color: orange;
+.nav_link:hover{
+  color: brown;
 }
 
 nav .active{
+  color: yellow;
+}
 
-  color: red;
+section{
+  display: grid;
+  grid-gap: 1rem;
+}
+
+article{
+  background-color: aliceblue;
+}
+
+@media screen  and (min-width:600px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen  and (min-width:992px) {
+  section{
+    grid-template-columns: auto auto auto;
+  }
 }
