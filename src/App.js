@@ -9,6 +9,8 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 
 import Navbar from "./components/Navbar/Navbar";
+import User from "./pages/User";
+import Index from "./routes";
 // import Card from "./components/Product-card";
 // import Products from "./products.json";
 // import Card2 from "./components/Card2";
@@ -104,8 +106,8 @@ function App() {
       {/* <Users /> */}
 
       {/* //! React Routing */}
-
-      <BrowserRouter>
+      <Index />
+      {/* <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -113,8 +115,9 @@ function App() {
           <Route path="/blogs/:title" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
+          <Route path="/user" element={<User />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
