@@ -1,4 +1,4 @@
-nav{
+/* nav{
   height: 10vh;
   background-color: black;
 
@@ -40,5 +40,58 @@ article{
 @media screen  and (min-width:992px) {
   section{
     grid-template-columns: auto auto auto;
+  }
+} */
+
+.App{
+  text-align: center;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+  margin: 1rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.btn{
+  margin: 10px;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover{
+  background-color: tomato;
+  color: aliceblue;
+}
+
+input{
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+section{
+  display: grid;
+}
+
+@media screen and (min-width: 600px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section{
+    grid-template-columns: auto auto auto ;
+  }
+}
+
+@media screen and (min-width: 922px) {
+  section{
+    grid-template-columns: auto auto auto auto ;
   }
 }

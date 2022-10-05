@@ -1,16 +1,17 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Index from "./components/api";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import style from "./App.css";
-import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
-import Error from "./pages/Error";
+// import Home from "./pages/Home";
+// import Blogs from "./pages/Blogs";
+// import Blog from "./pages/Blog";
+// import Contact from "./pages/Contact";
+// import Error from "./pages/Error";
 
-import Navbar from "./components/Navbar/Navbar";
-import User from "./pages/User";
-import Index from "./routes";
+// import Navbar from "./components/Navbar/Navbar";
+// import User from "./pages/User";
+// import Index from "./routes";
 // import Card from "./components/Product-card";
 // import Products from "./products.json";
 // import Card2 from "./components/Card2";
@@ -106,7 +107,7 @@ function App() {
       {/* <Users /> */}
 
       {/* //! React Routing */}
-      <Index />
+      {/* <Index /> */}
       {/* <BrowserRouter>
         <Navbar />
         <Routes>
@@ -117,7 +118,9 @@ function App() {
           <Route path="*" element={<Error />} />
           <Route path="/user" element={<User />} />
         </Routes>
+      
       </BrowserRouter> */}
+      <Index />
     </div>
   );
 }
