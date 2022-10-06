@@ -1,8 +1,9 @@
 import React from "react";
-import Index from "./components/api";
+
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import style from "./App.css";
+// import style from "./App.css";
+
 // import Home from "./pages/Home";
 // import Blogs from "./pages/Blogs";
 // import Blog from "./pages/Blog";
@@ -34,6 +35,8 @@ import style from "./App.css";
 // import UseReducer from "./components/Hooks/UseReducer/useReducer";
 // import Component1 from "./components/Hooks/useContext/Component1";
 // import Users from "./components/PropTypes/Users";
+// import Index from "./components/api";
+import Memo from "./components/React-memo/memo";
 
 //! page( practice routing)
 
@@ -120,7 +123,8 @@ function App() {
         </Routes>
       
       </BrowserRouter> */}
-      <Index />
+      {/* <Index /> */}
+      <Memo />
     </div>
   );
 }

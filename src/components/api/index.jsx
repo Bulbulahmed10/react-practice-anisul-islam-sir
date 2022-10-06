@@ -57,7 +57,7 @@ const Index = () => {
         setError(err.message);
       });
   };
-
+  //add user
   const addUser = (user) => {
     fetch(URL, {
       method: "POST",
@@ -77,7 +77,7 @@ const Index = () => {
         setError(err.message);
       });
   };
-
+  //update user
   const handleEdit = (id) => {
     setSelectedUserId(id);
     setUpdateFlag(true);
